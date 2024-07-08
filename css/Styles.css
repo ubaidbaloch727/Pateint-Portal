@@ -176,6 +176,8 @@ body {
   border: none;
   padding: 12px;
   border-radius: 2px;
+  color: rgb(43, 42, 42);
+  font-size: 0.7vw;
   cursor: pointer;
   width: 100%;
   }
@@ -432,6 +434,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #e24a4a;
+  font-size: 0.7vw;
   border: none;
   padding: 12px;
   border-radius: 2px;
@@ -504,7 +507,8 @@ img{
   align-items: center;
   justify-content: center;
   background: whitesmoke;
-  color: black;
+  color: rgb(43, 42, 42);
+  font-size: 0.7vw;
   border: none;
   padding: 12px;
   border-radius: 2px;
@@ -525,7 +529,7 @@ img{
   flex-basis: 50%;
   margin-right: 7px;
   font-size: 1vw;
-  color: rgb(32, 32, 32);
+  color: rgb(43, 42, 42);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -541,7 +545,7 @@ img{
   flex-basis: 50%;
   margin-right: 5px;
   font-size: 1vw;
-  color: rgb(32, 32, 32);
+  color: rgb(43, 42, 42);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -646,8 +650,8 @@ img{
   justify-content: center;
   background: #4a90e2;
   border-radius: 3px;
-  font-size: 0.6vw;
-  color: white;
+  font-size: 0.7vw;
+  color: rgb(241, 238, 238);
   border: none;
   padding: 12px;
   cursor: pointer;
@@ -668,8 +672,8 @@ img{
   justify-content: center;
   background: whitesmoke;
   border-radius: 3px;
-  font-size: 0.6vw;
-  color: black;
+  font-size: 0.7vw;
+  color: rgb(43, 42, 42);
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -689,6 +693,7 @@ img{
   background-color: rgb(61, 56, 56);
   border-radius: 5px;
   margin-bottom: 10px;
+  overflow: auto;
 }
 .visit-calender{
   width: 100%;
@@ -801,6 +806,7 @@ img{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  font-size: 0.7vw;
 }
 .appointment-book{
   width: 50%;
@@ -808,6 +814,7 @@ img{
   align-items: center;
   justify-content: center;
   background: whitesmoke;
+  color: rgb(43, 42, 42);
   margin: 10px 20px;
   margin-bottom: 20px;
   border: none;
@@ -833,13 +840,93 @@ img{
 }
 
 .container-saven{
+  display: flex;
+  flex-direction: column;
   height: 32%;
   background-color: rgb(61, 56, 56);
   border-radius: 5px;
-  padding: 2px;
-  display: flex;
+  padding: 5px 5px;
   margin-bottom: 5px;
 }
+.folder-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 20%;
+}
+.header-report{
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: white;
+}
+.uncategorized{
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.4em;
+}
+.uncategorized span {
+  background-color: #f7ec5b;
+  color: black;
+  padding: 10px 17px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.folder-main{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  height: 65%;
+}
+.folder{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-size: 0.7vw;
+  color: white;
+  width: 25%;
+  height: 30%;
+  flex-grow: 0;
+  margin: 2px;
+}
+.folder i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3vw;
+  padding-left: 5px;
+  cursor: pointer;
+  color: #f7ec5b;
+}
+
+.folder-footer{
+  display: flex;
+  height: 13.5%;
+}
+.Folder-report{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+}
+.ur-upload{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  border-radius: 3px;
+  font-size: 0.7vw;
+  color: rgb(43, 42, 42);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 90%;
+}
+
 
 @media screen and (max-width: 1200px) {
   .container {
